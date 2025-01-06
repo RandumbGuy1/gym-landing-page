@@ -54,6 +54,10 @@ button:focus-visible {
     border-color: #64b4ff;
 }
 
+.dark-bg {
+    background-color: #181b34;
+}
+
 .specialBtnDark {
     background: #64b4ff;
     color: white;
@@ -65,18 +69,4 @@ button:focus-visible {
 
 .dropShadow {
     filter: drop-shadow(-10.8923px 14.523px 35.0973px rgba(29, 140, 242, 0.2));
-}
-
-.fadeIn {
-    animation: fadeIn 300ms ease-in forwards;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
